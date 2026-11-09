@@ -8,9 +8,9 @@ android {
     defaultConfig {
         applicationId = "com.shellora.app"
         minSdk = 21
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        targetSdk = 28
+        versionCode = 2
+        versionName = "1.1"
         ndk { abiFilters += listOf("arm64-v8a", "armeabi-v7a") }
     }
     packaging { jniLibs { useLegacyPackaging = true } }
